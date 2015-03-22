@@ -32,10 +32,4 @@ cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         inv
 }
-m <- matrix(c(-1, -2, 1, 1), 2,2)
-x <- makeCacheMatrix(m)
-x$get()
-y <- cacheSolve(x)
-y
-x$getinv()
-cacheSolve(x)
+
